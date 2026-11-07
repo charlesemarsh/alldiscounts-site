@@ -248,3 +248,4 @@ code { background: var(--lilac); padding: 1px 6px; border-radius: 6px; font-size
 .site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; align-items: center; }
 .site-footer nav { display: flex; flex-wrap: wrap; gap: 22px; }
 .site-footer a { color: var(--ink); }
+.site-footer .credit { flex-basis: 100%; margin: 0; font-size: 14px; }
