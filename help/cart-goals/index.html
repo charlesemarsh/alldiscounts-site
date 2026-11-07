@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cart goals | All Discounts &amp; Promotions help</title>
+<meta name="description" content="Reward shoppers when their cart reaches a set amount, with an order discount or free shipping and a live progress bar in the cart.">
+<link rel="canonical" href="https://alldiscounts.co.uk/help/cart-goals/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="All Discounts &amp; Promotions">
+<meta property="og:title" content="Cart goals">
+<meta property="og:description" content="Reward shoppers when their cart reaches a set amount, with an order discount or free shipping and a live progress bar in the cart.">
+<meta property="og:url" content="https://alldiscounts.co.uk/help/cart-goals/">
+<meta property="og:image" content="https://alldiscounts.co.uk/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../../#discounts">Discounts</a>
+      <a href="../../bulk-price-sales/">Bulk sales</a>
+      <a href="../../#pricing">Pricing</a>
+      <a href="../" aria-current="page">Help</a>
+      <a class="button small" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=help-cart-goals">Install</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <a class="crumb" href="../">← Help</a>
+      <h1>Cart goals</h1>
+      <p class="lede">A cart goal unlocks a reward once the cart subtotal reaches an amount you choose: money off the order or a shipping discount. A progress bar in the cart shows shoppers how far they have to go.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap prose">
+      <h2>Set it up</h2>
+      <ol>
+        <li>In the app, go to <strong>Discount Campaigns</strong> and click <strong>Create a campaign</strong>.</li>
+        <li>Find <strong>Cart goal</strong> and click <strong>Create</strong>.</li>
+        <li>Enter a <strong>Campaign name</strong>. Only you see it.</li>
+        <li>Under <strong>Goal</strong>, set <strong>Unlock when cart subtotal reaches</strong> to the amount the cart has to hit.</li>
+        <li>Under <strong>Reward</strong>, pick a <strong>Reward type</strong>: <strong>Order discount</strong> or <strong>Shipping discount</strong>.</li>
+        <li>Choose the <strong>Discount value</strong>: <strong>Percentage</strong> or <strong>Fixed amount</strong>, and for a shipping reward also <strong>Free shipping</strong>. Enter the percentage or amount.</li>
+        <li>Optionally write a <strong>Storefront message</strong> (see below) and decide whether to tick <strong>Show progress bar in the cart drawer</strong>.</li>
+        <li>Check <strong>Combinations</strong>, <strong>Customer selection</strong> and <strong>Schedule</strong>, then click <strong>Create cart goal</strong>.</li>
+      </ol>
+      <p>The goal is an automatic discount, so there’s no code to enter. It goes live as soon as you save, or at the start date if you scheduled it.</p>
+
+      <h2>What shoppers see</h2>
+      <p>The progress bar shows how much more the shopper needs to spend and what they’ll get, for example “You’re £12.00 away from free shipping”. It updates as items are added, changed or removed. When the cart reaches the goal, the bar says the reward is unlocked.</p>
+      <p>There are two ways to put the bar in the cart:</p>
+      <ul>
+        <li><strong>Cart goal progress app block.</strong> In the theme editor, add the <strong>Cart goal progress</strong> block to your cart page or cart drawer section. Its <strong>Show ‘unlocked’ message when goal is reached</strong> setting decides whether the bar stays visible once the goal is met.</li>
+        <li><strong>Automatic cart drawer bar.</strong> With <strong>Show progress bar in the cart drawer</strong> ticked, the app adds the bar to your cart drawer itself, even if your theme doesn’t let you add the block there. If it doesn’t appear, or appears in the wrong spot, set its position under <strong>Advanced settings</strong> &gt; <strong>Widget placement</strong> &gt; <strong>Cart goal bar in the cart drawer</strong>.</li>
+      </ul>
+      <p>Both need the app embed turned on in your theme. See <a href="../storefront-display/">Storefront display</a>.</p>
+      <p>The reward itself is applied in the cart and at checkout. A shipping reward only shows once the shopper reaches the shipping step.</p>
+
+      <h3>Storefront message</h3>
+      <p>Leave <strong>Storefront message (optional)</strong> blank to use your default copy, or write your own using these tokens:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Token</th><th>Replaced with</th></tr></thead>
+          <tbody>
+            <tr><td><code>{{remaining}}</code></td><td>The amount left to spend</td></tr>
+            <tr><td><code>{{reward}}</code></td><td>The reward, such as “free shipping” or “10% off your order”</td></tr>
+            <tr><td><code>{{threshold}}</code></td><td>The goal amount</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>A message you write here is also shown once the goal is reached, so word it so it still makes sense then.</p>
+
+      <h2>Several goals on one bar</h2>
+      <p>You can run more than one cart goal, for example free shipping at £40 and 10% off at £80. The bar counts down to the next goal the shopper hasn’t reached. Free gifts set to unlock at a cart subtotal can join the same bar: tick <strong>Show on the cart goal progress bar</strong> on the free gift. See <a href="../free-gifts/">Free gifts</a>.</p>
+
+      <h2>Change how the bar looks</h2>
+      <p>Go to <strong>Customise</strong> and click <strong>Customize</strong> on <strong>Cart Goal Widget</strong>. You can set:</p>
+      <ul>
+        <li><strong>Colours</strong>: card background and border, text, the empty track, and the fill before and after the goal is unlocked.</li>
+        <li><strong>Default copy</strong>: the <strong>In-progress message</strong> used by goals with no storefront message, and the <strong>Unlocked message</strong>.</li>
+        <li><strong>Tiers</strong>: used when the bar has more than one tier or a free gift. Choose a <strong>Layout</strong> (<strong>Next reward card, other tiers as chips</strong>, <strong>Milestones along the bar</strong> or <strong>Banner with big circles</strong>), whether gift tiers show the product image or a gift icon, and the image size.</li>
+      </ul>
+
+      <h2>Good to know</h2>
+      <ul>
+        <li>The goal is checked against the cart subtotal. Thresholds and fixed amounts are in your store currency and converted for shoppers paying in another currency.</li>
+        <li>New cart goals combine with product, order and shipping discounts by default. If you untick a box under <strong>Combinations</strong>, another discount can win at checkout instead. If an order reward isn’t actually on the cart, the bar leaves that goal out rather than show it as unlocked.</li>
+        <li>When a scheduled goal ends, it stops showing on the bar.</li>
+        <li><strong>Customer selection</strong> is <strong>All customers</strong> for now; customer segments are marked as coming soon.</li>
+      </ul>
+
+
+      <div class="note">
+        <p>Stuck? Email <a href="mailto:hello@behaviour-discounts.co.uk">hello@behaviour-discounts.co.uk</a> with your store address and what you’re trying to set up.</p>
+      </div>
+
+      <h2>Related guides</h2>
+      <ul class="related">
+        <li><a href="../free-gifts/">Free gifts</a></li>
+        <li><a href="../shipping-discounts/">Shipping discounts</a></li>
+        <li><a href="../storefront-display/">Storefront display</a></li>
+        <li><a href="../quantity-discounts/">Quantity discounts</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav aria-label="Footer">
+      <a href="../../bulk-price-sales/">Bulk price sales</a>
+      <a href="../../switch-from-discounty/">Switching from Discounty</a>
+      <a href="../">Help</a>
+      <a href="https://docs.behaviour-discounts.co.uk/privacy/">Privacy</a>
+      <a href="mailto:hello@behaviour-discounts.co.uk">Contact</a>
+    </nav>
+    <p class="credit">Made by <a href="https://ec-web.co.uk/">EC Web</a></p>
+  </div>
+</footer>
+</body>
+</html>

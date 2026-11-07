@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>All Discounts &amp; Promotions for Shopify</title>
+<title>All Discounts &amp; Promotions | Shopify discount app</title>
 <meta name="description" content="Quantity tiers, Buy X Get Y, bundles, free gifts, cart goals and bulk price sales for Shopify, shown on product pages, collections and the cart.">
 <link rel="canonical" href="https://alldiscounts.co.uk/">
 <meta property="og:title" content="All Discounts &amp; Promotions for Shopify">
@@ -11,6 +11,96 @@
 <meta property="og:image" content="https://alldiscounts.co.uk/assets/img/og.jpg">
 <meta property="og:url" content="https://alldiscounts.co.uk/">
 <meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="All Discounts &amp; Promotions">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "SoftwareApplication",
+ "name": "All Discounts & Promotions",
+ "applicationCategory": "BusinessApplication",
+ "operatingSystem": "Shopify",
+ "url": "https://alldiscounts.co.uk/",
+ "installUrl": "https://apps.shopify.com/behaviour-discounts",
+ "sameAs": [
+  "https://apps.shopify.com/behaviour-discounts"
+ ],
+ "description": "Quantity tiers, Buy X Get Y, bundles, free gifts, cart goals and bulk price sales for Shopify, shown on product pages, collections and the cart.",
+ "offers": [
+  {
+   "@type": "Offer",
+   "name": "Free",
+   "price": "0",
+   "priceCurrency": "USD"
+  },
+  {
+   "@type": "Offer",
+   "name": "Pro",
+   "price": "9.99",
+   "priceCurrency": "USD"
+  },
+  {
+   "@type": "Offer",
+   "name": "Plus",
+   "price": "49.99",
+   "priceCurrency": "USD"
+  }
+ ],
+ "publisher": {
+  "@type": "Organization",
+  "name": "EC Web",
+  "url": "https://ec-web.co.uk/"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Which themes does it work with?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Any Online Store 2.0 theme. You switch the app on in the theme editor and add the blocks you want, such as the tier picker or the cart progress bar. If you’d like a hand placing them, email us and we’ll do it for free."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Do shoppers need to enter a code?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Tiers, bundles, Buy X Get Y, cart goals and free gifts apply automatically at checkout. You can still create discount codes when you want one."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What happens to a bulk sale if I uninstall?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "End any running sale first, so the app can put your prices back. If you uninstall without ending it, each discounted variant still holds its original price in a metafield called behaviour_discounts.original_price, which you can see in the Shopify admin and use to set the prices back."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can I try it before paying?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. The free plan covers 10 discounted orders a month, and Pro and Plus both start with a 7-day free trial."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do I get help?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Read the help guides or email hello@behaviour-discounts.co.uk."
+   }
+  }
+ ]
+}
+</script>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +117,7 @@
       <a href="#discounts">Discounts</a>
       <a href="bulk-price-sales/">Bulk sales</a>
       <a href="#pricing">Pricing</a>
-      <a href="https://docs.behaviour-discounts.co.uk/help/">Help</a>
+      <a href="help/">Help</a>
       <a class="button small" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=header">Install</a>
     </nav>
   </div>
@@ -47,7 +137,7 @@
       </div>
       <div class="scene" role="img" aria-label="A product page with a buy-more-save-more picker, a collection tile with a Buy 2+ save 10% badge, and a cart progress bar">
         <div class="card tile"><div class="crop"></div></div>
-        <div class="card picker"><img src="assets/img/picker.webp" width="760" height="1018" alt=""></div>
+        <div class="card picker"><img src="assets/img/picker.webp" width="760" height="1018" fetchpriority="high" alt=""></div>
         <div class="card bar"><div class="crop"></div></div>
         <div class="sticker">Save 15%</div>
       </div>
@@ -101,14 +191,14 @@
           <ul class="types">
             <li><strong>Quantity tiers</strong><span>Discounts that grow with how many items a shopper buys.</span><em>Buy 3+, save 10%. Buy 5+, save 20%.</em></li>
             <li><strong>Bundles</strong><span>A set of products at a bundle price, shown on each product page.</span><em>T-shirt, cap and tote, 15% off together</em></li>
-            <li><strong>Buy X Get Y</strong><span>Buying certain products makes others free or cheaper.</span><em>Buy 2 shirts, get a cap free</em></li>
-            <li><strong>Upsells</strong><span>Tickable add-ons next to the product, each with its own discount.</span><em>Matching socks, 50% off</em></li>
+                        <li><strong>Upsells</strong><span>Tickable add-ons next to the product, each with its own discount.</span><em>Matching socks, 50% off</em></li>
           </ul>
         </div>
         <div class="group">
           <div><h3>In the cart</h3><p>Rewards that grow the order.</p></div>
           <ul class="types">
             <li><strong>Cart goals</strong><span>A reward once the cart passes a set amount, with a progress bar.</span><em>Spend £100, get £10 off</em></li>
+            <li><strong>Buy X Get Y</strong><span>Buying certain products makes others free or cheaper.</span><em>Buy 2 shirts, get a cap free</em></li>
             <li><strong>Free gifts</strong><span>Added to the cart automatically, or picked from a popup when there’s a choice.</span><em>Spend £50, get a free sample</em></li>
             <li><strong>Shipping discounts</strong><span>Free or cheaper shipping, automatically or by code, for the countries you choose.</span><em>Free UK shipping over £60</em></li>
             <li><strong>Discount codes</strong><span>One code that can combine product, order and shipping discounts.</span><em>SUMMER20: 20% off and free shipping</em></li>
@@ -127,7 +217,7 @@
             <li><strong>QR codes</strong><span>Print a code for packaging, flyers or a shop counter that opens your store with a discount.</span><em>Scan for 15% off your next order</em></li>
             <li><strong>Behaviour triggers</strong><span>Offers that appear based on what a shopper does, such as time on a page or what they add.</span><em>Add a machine, choose a free accessory</em></li>
             <li><strong>Sign-up popups</strong><span>Collect emails, with an optional code or gift as the thank-you.</span><em>Sign up, get 10% off</em></li>
-            <li><strong>Thank-you page offers</strong><span>Products offered once the order is placed, to bring buyers back for a second.</span><em>Add a lantern, 15% off</em></li>
+            <li><strong>Thank-you page offers</strong><span>Products offered once the order is placed, to bring buyers back for a second.</span><em>Add a lantern, 15% off</em><span class="plus">Pro and Plus plans</span></li>
             <li><strong>Checkout cross-sells</strong><span>Add-on offers inside checkout, before payment.</span><span class="plus">Shopify Plus stores only</span></li>
           </ul>
         </div>
@@ -179,19 +269,19 @@
     <div class="wrap">
       <div class="section-head">
         <h2>Start free, upgrade when it pays</h2>
-        <p>Every discount type is on every plan, apart from checkout cross-sells, which need Shopify Plus. Prices are in US dollars, billed through Shopify.</p>
+        <p>Every discount type is on every plan, apart from thank-you page offers, which need Pro or Plus, and checkout cross-sells, which need Plus and a Shopify Plus store. Prices are in US dollars, billed through Shopify.</p>
       </div>
       <div class="plans">
         <div class="plan">
           <h3>Free</h3>
           <p class="price">$0</p>
-          <ul class="ticks"><li>Every discount type</li><li>Discounts applied to up to 10 orders a month</li></ul>
+          <ul class="ticks"><li>Every discount type except thank-you page offers and checkout cross-sells</li><li>Discounts applied to up to 10 orders a month</li></ul>
           <a class="button ghost" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=pricing-free">Install free</a>
         </div>
         <div class="plan pick">
           <h3>Pro</h3>
           <p class="price">$9.99 <small>a month, or $80 a year</small></p>
-          <ul class="ticks"><li>Unlimited discounted orders</li><li>7-day free trial</li></ul>
+          <ul class="ticks"><li>Unlimited discounted orders</li><li>Thank-you page offers</li><li>7-day free trial</li></ul>
           <a class="button" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=pricing-pro">Start free trial</a>
         </div>
         <div class="plan">
@@ -226,7 +316,7 @@
         </details>
         <details>
           <summary>How do I get help?</summary>
-          <div><p>Read the <a href="https://docs.behaviour-discounts.co.uk/help/">help guides</a> or email <a href="mailto:hello@behaviour-discounts.co.uk">hello@behaviour-discounts.co.uk</a>.</p></div>
+          <div><p>Read the <a href="help/">help guides</a> or email <a href="mailto:hello@behaviour-discounts.co.uk">hello@behaviour-discounts.co.uk</a>.</p></div>
         </details>
       </div>
     </div>
@@ -247,7 +337,7 @@
     <nav aria-label="Footer">
       <a href="bulk-price-sales/">Bulk price sales</a>
       <a href="switch-from-discounty/">Switching from Discounty</a>
-      <a href="https://docs.behaviour-discounts.co.uk/help/">Help</a>
+      <a href="help/">Help</a>
       <a href="https://docs.behaviour-discounts.co.uk/privacy/">Privacy</a>
       <a href="mailto:hello@behaviour-discounts.co.uk">Contact</a>
     </nav>

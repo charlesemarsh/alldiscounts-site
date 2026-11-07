@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Troubleshooting | All Discounts &amp; Promotions help</title>
+<meta name="description" content="What to check when a discount, popup or widget doesn’t show or doesn’t apply: the app embed, campaign status, combinations and more.">
+<link rel="canonical" href="https://alldiscounts.co.uk/help/troubleshooting/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="All Discounts &amp; Promotions">
+<meta property="og:title" content="Troubleshooting">
+<meta property="og:description" content="What to check when a discount, popup or widget doesn’t show or doesn’t apply: the app embed, campaign status, combinations and more.">
+<meta property="og:url" content="https://alldiscounts.co.uk/help/troubleshooting/">
+<meta property="og:image" content="https://alldiscounts.co.uk/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../../#discounts">Discounts</a>
+      <a href="../../bulk-price-sales/">Bulk sales</a>
+      <a href="../../#pricing">Pricing</a>
+      <a href="../" aria-current="page">Help</a>
+      <a class="button small" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=help-troubleshooting">Install</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <a class="crumb" href="../">← Help</a>
+      <h1>Troubleshooting</h1>
+      <p class="lede">What to check when a discount doesn’t show on your storefront or doesn’t apply at checkout.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap prose">
+      <p>Work through these checks in order.</p>
+
+      <h2>1. Is the theme app embed switched on?</h2>
+      <p>Popups, magic links, QR codes, behaviour triggers and the widgets that place themselves all need the app embed. Open the app’s <strong>Home</strong> page: if the embed is off in your published theme, you’ll see a banner saying so, with an <strong>Enable app embed</strong> button. Turn on <strong>Discounts &amp; Promotions</strong> in the theme editor and click <strong>Save</strong>.</p>
+      <p>The embed is set per theme. If you’ve just published a new theme, or you’re previewing an unpublished one, switch it on in that theme too.</p>
+
+      <h2>2. Is the campaign live?</h2>
+      <ol>
+        <li>Go to <strong>Discount Campaigns</strong> and find the campaign.</li>
+        <li>Check the <strong>Status</strong> column. Only an active campaign applies. <strong>Draft</strong> and <strong>Paused</strong> campaigns don’t.</li>
+        <li>Check the <strong>Time</strong> column. A campaign with a start date in the future sits under the <strong>Scheduled</strong> tab until then, and one past its end date moves to <strong>Expired</strong>.</li>
+      </ol>
+      <p>Start and end times use your store’s time zone, as set in Shopify.</p>
+      <p>Magic links stop working once they reach their activation limit or their time limit, if you set one. Open the magic link to see its status and raise or clear the limit.</p>
+
+      <h2>3. Does the cart actually qualify?</h2>
+      <p>Check the campaign’s products, collections, minimum spend or quantity, and which customers it’s for. A discount only applies to the products and customers it covers, and only once the cart meets its minimum.</p>
+
+      <h2>4. Is another discount winning?</h2>
+      <p>When two discounts apply to the same cart but aren’t allowed to combine, Shopify keeps only the bigger saving and drops the other. Campaigns that create a Shopify discount have a <strong>Combinations</strong> section with three boxes: <strong>Order discounts</strong>, <strong>Product discounts</strong> and <strong>Shipping discounts</strong>.</p>
+      <ul>
+        <li>If a live discount in your store won’t stack with the one you’re editing, the <strong>Combinations</strong> section lists it and tells you what to change: tick a box on this campaign, change the other discount, or both.</li>
+        <li>Both discounts have to allow combining. Ticking the box on one isn’t enough if the other discount doesn’t allow it.</li>
+      </ul>
+
+      <h2>5. Testing behaviour triggers after a magic link</h2>
+      <p>When a shopper arrives through a magic link or QR code, their browser remembers it for 7 days. While it’s remembered, behaviour triggers don’t fire for that shopper, so the two don’t overlap. This often catches merchants out when testing.</p>
+      <p>To test behaviour triggers, use a new private or incognito window, or clear your cookies for the store. On a behaviour trigger, the <strong>Preview on storefront</strong> button opens your store and shows the popup even if you dismissed it earlier.</p>
+
+      <h2>6. Popup closed and won’t come back</h2>
+      <p>Once a shopper closes an offer popup, it doesn’t open again by itself for the rest of their visit. The floating button stays on screen so they can reopen it. When testing, use a new private window to see the popup fresh.</p>
+
+      <h2>7. Just made a change?</h2>
+      <p>The storefront keeps campaign details for up to a minute in each visitor’s browser. If a change doesn’t show, wait a minute and reload, or open a new private window.</p>
+
+      <h2>8. A widget doesn’t show, or shows in the wrong place</h2>
+      <p>Themes are built differently, so a widget that places itself may not find the right spot on yours.</p>
+      <ul>
+        <li>Where there’s a theme app block for it (bundle, upsell, quantity and cart goal widgets), add the block in the theme editor so you choose where it goes.</li>
+        <li>Or go to <strong>Advanced settings</strong> &gt; <strong>Widget placement</strong> and give the widget a CSS selector to sit next to.</li>
+        <li>Or click <strong>Ask us to place it</strong> on that page and we’ll set it up for you, free.</li>
+      </ul>
+      <p>If free gifts or other auto-added products go into the cart but the cart drawer doesn’t update or open, try the <strong>Cart Drawer Settings</strong> in <strong>Advanced settings</strong>. See <a href="../storefront-display/">Storefront display</a> for what each setting does.</p>
+
+      <h2>9. A discount applies that shouldn’t</h2>
+      <p>If you deleted a campaign but its Shopify discount was left behind, <strong>Discount Campaigns</strong> shows a banner headed <strong>Leftover discounts are still applying</strong>. Click <strong>Turn them off</strong>.</p>
+
+      <div class="note">
+        <p>Stuck? Email <a href="mailto:hello@behaviour-discounts.co.uk">hello@behaviour-discounts.co.uk</a> with your store address and what you’re trying to set up.</p>
+      </div>
+
+      <h2>Related guides</h2>
+      <ul class="related">
+        <li><a href="../getting-started/">Getting started</a></li>
+        <li><a href="../storefront-display/">Storefront display</a></li>
+        <li><a href="../magic-links/">Magic links</a></li>
+        <li><a href="../behaviour-triggers/">Behaviour triggers</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav aria-label="Footer">
+      <a href="../../bulk-price-sales/">Bulk price sales</a>
+      <a href="../../switch-from-discounty/">Switching from Discounty</a>
+      <a href="../">Help</a>
+      <a href="https://docs.behaviour-discounts.co.uk/privacy/">Privacy</a>
+      <a href="mailto:hello@behaviour-discounts.co.uk">Contact</a>
+    </nav>
+    <p class="credit">Made by <a href="https://ec-web.co.uk/">EC Web</a></p>
+  </div>
+</footer>
+</body>
+</html>

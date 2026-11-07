@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout cross-sells | All Discounts &amp; Promotions help</title>
+<meta name="description" content="Offer add-on products inside Shopify checkout, before the customer pays, each with its own discount. Needs the Plus plan and a Shopify Plus store.">
+<link rel="canonical" href="https://alldiscounts.co.uk/help/checkout-cross-sells/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="All Discounts &amp; Promotions">
+<meta property="og:title" content="Checkout cross-sells">
+<meta property="og:description" content="Offer add-on products inside Shopify checkout, before the customer pays, each with its own discount. Needs the Plus plan and a Shopify Plus store.">
+<meta property="og:url" content="https://alldiscounts.co.uk/help/checkout-cross-sells/">
+<meta property="og:image" content="https://alldiscounts.co.uk/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../../#discounts">Discounts</a>
+      <a href="../../bulk-price-sales/">Bulk sales</a>
+      <a href="../../#pricing">Pricing</a>
+      <a href="../" aria-current="page">Help</a>
+      <a class="button small" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=help-checkout-cross-sells">Install</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <a class="crumb" href="../">← Help</a>
+      <h1>Checkout cross-sells</h1>
+      <p class="lede">Show add-on products in checkout, under the items in the customer’s order, before they pay. Customers add an offer with one click, and each product can have its own discount.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap prose">
+      <div class="note">
+        <p>Checkout cross-sells need two things: the app’s <strong>Plus</strong> plan, and a store on Shopify Plus. Shopify only lets apps add blocks to checkout on Plus stores. Without both, the app shows a notice instead of the form.</p>
+      </div>
+
+      <h2>Set it up</h2>
+      <ol>
+        <li>In the app, go to <strong>Discount Campaigns</strong> and click <strong>Create a campaign</strong>.</li>
+        <li>On the <strong>Checkout cross-sell</strong> card, click <strong>Create</strong>.</li>
+        <li>Enter a <strong>Campaign name</strong>. Only you see it.</li>
+        <li>Under <strong>When to show the offer</strong>, click <strong>Add condition</strong> and set a <strong>Type</strong>, <strong>Operator</strong> and <strong>Value</strong>. Or tick <strong>Always show this offer (no conditions)</strong>.</li>
+        <li>Under <strong>Offer products</strong>, choose <strong>Manually select products</strong> and click <strong>Pick offer products</strong>.</li>
+        <li>For each product, set a <strong>Discount</strong>: <strong>No discount</strong>, <strong>Percentage off</strong>, <strong>Fixed amount off</strong> or <strong>Free</strong>, and enter the <strong>Value</strong>.</li>
+        <li>Optionally enter a <strong>Heading shown to customers</strong>. Leave it blank to show “You might also like”, translated into the customer’s language.</li>
+        <li>Optionally add an order tag and set a <strong>Schedule</strong>.</li>
+        <li>Click <strong>Create checkout cross-sell</strong>.</li>
+      </ol>
+
+      <h3>Add the block to your checkout (once)</h3>
+      <ol>
+        <li>On the cross-sell’s page, click <strong>Open checkout editor</strong>. You can also get there from <strong>Settings</strong> → <strong>Checkout</strong> → <strong>Customize</strong> in your Shopify admin.</li>
+        <li>Add the <strong>Checkout cross-sell</strong> app block and save.</li>
+      </ol>
+      <p>Until the block is added, your cross-sells save but never show. You only add it once: it then shows whichever campaign matches each checkout. In the editor, the block shows a placeholder message.</p>
+
+      <h2>What customers see</h2>
+      <p>Below the items in their order, customers see your heading and the offer products, with live prices in their currency and any discount badge. Clicking <strong>Add to order</strong> adds the product to the checkout, and the button changes to <strong>Added</strong>. The discount is applied automatically; there’s no code to enter.</p>
+      <p>Products that are already in the checkout aren’t offered again.</p>
+
+      <h2>Conditions</h2>
+      <p>Conditions are checked against the customer’s checkout. You can use:</p>
+      <ul>
+        <li>Products in the cart: a product, product tag, collection, vendor or product type</li>
+        <li>Cart size: total units, subtotal, or number of distinct lines</li>
+        <li>The buyer’s market country or checkout currency</li>
+      </ul>
+      <p>With more than one condition, choose whether all must match or any can match. Checkout shows one campaign at a time: if several match, the customer sees the one you created most recently, with all of its products.</p>
+
+      <h2>Automatic recommendations</h2>
+      <p>Instead of picking products, you can choose <strong>Use automatic product recommendations from Shopify’s Search &amp; Discovery</strong>. Shopify then picks products based on what’s in the cart. Choose <strong>Related products</strong> or <strong>Complementary products</strong> and set <strong>Maximum products to show</strong>. Recommended products are always full price. <strong>Complementary products</strong> only work if you’ve set them up in the Search &amp; Discovery app.</p>
+
+      <h2>Good to know</h2>
+      <ul>
+        <li>Offers don’t show when Shopify won’t let products be added to the checkout, such as for buyers using an accelerated checkout like Shop Pay, Apple Pay or Google Pay. This is a Shopify limit.</li>
+        <li>If your store or your app plan stops being Plus, cross-sells stop showing at checkout.</li>
+        <li>For an offer after the order is placed, which works on any paid plan and any Shopify store, see <a href="../thank-you-page-offers/">Thank-you page offers</a>.</li>
+      </ul>
+
+      <div class="note">
+        <p>Stuck? Email <a href="mailto:hello@behaviour-discounts.co.uk">hello@behaviour-discounts.co.uk</a> with your store address and what you’re trying to set up.</p>
+      </div>
+
+      <h2>Related guides</h2>
+      <ul class="related">
+        <li><a href="../thank-you-page-offers/">Thank-you page offers</a></li>
+        <li><a href="../upsells/">Upsells</a></li>
+        <li><a href="../bundles/">Bundles</a></li>
+        <li><a href="../plans-and-billing/">Plans and billing</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav aria-label="Footer">
+      <a href="../../bulk-price-sales/">Bulk price sales</a>
+      <a href="../../switch-from-discounty/">Switching from Discounty</a>
+      <a href="../">Help</a>
+      <a href="https://docs.behaviour-discounts.co.uk/privacy/">Privacy</a>
+      <a href="mailto:hello@behaviour-discounts.co.uk">Contact</a>
+    </nav>
+    <p class="credit">Made by <a href="https://ec-web.co.uk/">EC Web</a></p>
+  </div>
+</footer>
+</body>
+</html>

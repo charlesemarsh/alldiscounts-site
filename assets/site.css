@@ -235,7 +235,8 @@ section { padding-block: clamp(64px, 9vw, 120px); }
 .page-hero { background: var(--lilac); padding-block: clamp(48px, 7vw, 96px); }
 .page-hero .wrap { display: grid; gap: 24px; }
 .page-hero h1 { font-size: clamp(42px, 6vw, 76px); max-width: 15ch; }
-.prose { max-width: 720px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
+.prose { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
+.prose > * { max-width: 720px; }
 .prose h2 { font-size: clamp(30px, 3.6vw, 42px); margin-top: 28px; }
 .prose p, .prose li { color: var(--ink-soft); }
 .prose ol { padding-left: 1.3em; display: grid; gap: 12px; margin: 0; }
@@ -249,3 +250,22 @@ code { background: var(--lilac); padding: 1px 6px; border-radius: 6px; font-size
 .site-footer nav { display: flex; flex-wrap: wrap; gap: 22px; }
 .site-footer a { color: var(--ink); }
 .site-footer .credit { flex-basis: 100%; margin: 0; font-size: 14px; }
+
+/* Help guides */
+.crumb { font-weight: 600; color: var(--ink); text-decoration: none; justify-self: start; }
+.crumb:hover { text-decoration: underline; }
+.prose h3 { font-size: 23px; margin-top: 12px; }
+.prose ul:not(.ticks):not(.related) { padding-left: 1.3em; display: grid; gap: 10px; margin: 0; }
+.prose strong { color: var(--ink); }
+.prose .table-wrap { overflow-x: auto; }
+.prose table { width: 100%; border-collapse: collapse; font-size: 16.5px; }
+.prose th, .prose td { text-align: left; vertical-align: top; padding: 12px 14px 12px 0; border-bottom: 1px solid var(--line); }
+.prose th { font-weight: 600; color: var(--ink); border-bottom: 2px solid var(--ink); }
+.prose td { color: var(--ink-soft); }
+.related { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.related a { display: inline-block; padding: 8px 14px; border-radius: 999px; background: var(--lilac); color: var(--ink); text-decoration: none; font-weight: 500; }
+.related a:hover { background: var(--lilac-deep); }
+.types a.title { font-size: 19px; font-weight: 600; color: var(--ink); }
+.types a.title:hover { color: var(--cobalt); }
+.group h2.h3 { font-size: 24px; letter-spacing: -0.015em; line-height: 1.15; }
+.prose td code { overflow-wrap: normal; white-space: nowrap; }

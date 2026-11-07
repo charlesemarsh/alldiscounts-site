@@ -4,11 +4,55 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bulk price sales for Shopify | All Discounts &amp; Promotions</title>
-<meta name="description" content="Lower prices across products, collections, tags or vendors on a schedule, show the old price crossed out, and have every price put back automatically when the sale ends.">
+<meta name="description" content="Lower prices across collections, tags or vendors on a schedule, show the old price crossed out, and put every price back when the sale ends.">
 <link rel="canonical" href="https://alldiscounts.co.uk/bulk-price-sales/">
 <meta property="og:title" content="Bulk price sales for Shopify that put your prices back">
 <meta property="og:image" content="https://alldiscounts.co.uk/assets/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="All Discounts &amp; Promotions">
+<meta property="og:description" content="Lower prices across collections, tags or vendors on a schedule, show the old price crossed out, and put every price back when the sale ends.">
+<meta property="og:url" content="https://alldiscounts.co.uk/bulk-price-sales/">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What if a product is already reduced?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "If a variant already has a compare-at price, the sale leaves it alone by default, so you don’t cut a price that’s already cut. The form tells you how many variants that affects before you create the sale, and you can tick a box to include them. They then get the discount off their current price and keep their existing compare-at price."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What happens if I uninstall during a sale?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Shopify stops the app changing your prices once it’s uninstalled, so end any running sale first and the app will put everything back. If a sale is still running when you uninstall, each discounted variant keeps its original price in a metafield called behaviour_discounts.original_price, which you can see in the Shopify admin and use to set the prices back."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can I run more than one sale at once?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes, as long as they don’t cover the same products at the same time. The app checks for overlaps when you create a sale and tells you which product clashes."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How is this different from a discount code or an automatic discount?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "A bulk sale changes the price itself, so the lower price shows everywhere your products appear: collection pages, search, product feeds and marketplaces that read your prices. Discount codes and automatic discounts only apply at checkout. The app does both, so use whichever suits the promotion."
+   }
+  }
+ ]
+}
+</script>
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +69,7 @@
       <a href="../#discounts">Discounts</a>
       <a href="./" aria-current="page">Bulk sales</a>
       <a href="../#pricing">Pricing</a>
-      <a href="https://docs.behaviour-discounts.co.uk/help/">Help</a>
+      <a href="../help/">Help</a>
       <a class="button small" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=bulk-header">Install</a>
     </nav>
   </div>
@@ -145,7 +189,7 @@
     <nav aria-label="Footer">
       <a href="./">Bulk price sales</a>
       <a href="../switch-from-discounty/">Switching from Discounty</a>
-      <a href="https://docs.behaviour-discounts.co.uk/help/">Help</a>
+      <a href="../help/">Help</a>
       <a href="https://docs.behaviour-discounts.co.uk/privacy/">Privacy</a>
       <a href="mailto:hello@behaviour-discounts.co.uk">Contact</a>
     </nav>

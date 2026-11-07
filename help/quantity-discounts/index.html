@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quantity discounts | All Discounts &amp; Promotions help</title>
+<meta name="description" content="Set up tiered quantity discounts on Shopify: buy 3+ save 10%, buy 5+ save 20%. Add a quantity picker, savings chart and badges to your store.">
+<link rel="canonical" href="https://alldiscounts.co.uk/help/quantity-discounts/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="All Discounts &amp; Promotions">
+<meta property="og:title" content="Quantity discounts">
+<meta property="og:description" content="Set up tiered quantity discounts on Shopify: buy 3+ save 10%, buy 5+ save 20%. Add a quantity picker, savings chart and badges to your store.">
+<meta property="og:url" content="https://alldiscounts.co.uk/help/quantity-discounts/">
+<meta property="og:image" content="https://alldiscounts.co.uk/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../../#discounts">Discounts</a>
+      <a href="../../bulk-price-sales/">Bulk sales</a>
+      <a href="../../#pricing">Pricing</a>
+      <a href="../" aria-current="page">Help</a>
+      <a class="button small" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=help-quantity-discounts">Install</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <a class="crumb" href="../">← Help</a>
+      <h1>Quantity discounts and tiered pricing</h1>
+      <p class="lede">Give shoppers a bigger discount the more they buy, such as 10% off 3 or more and 20% off 5 or more. The discount applies automatically at checkout, and app blocks show the tiers on your product pages.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap prose">
+      <h2>Set it up</h2>
+      <ol>
+        <li>In the app, go to <strong>Discount Campaigns</strong> and click <strong>Create a campaign</strong>.</li>
+        <li>On the <strong>Quantity discount</strong> card, click <strong>Create</strong>.</li>
+        <li>Enter a <strong>Campaign name</strong>. Only you see it.</li>
+        <li>Under <strong>Discount</strong>, set up <strong>Tier 1</strong>: pick <strong>Percentage</strong> or <strong>Fixed amount</strong> in <strong>Discount/Pricing</strong>, enter the value, and set the <strong>Minimum quantity of items</strong>. Click <strong>Add discount tier</strong> for each extra tier.</li>
+        <li>Under <strong>Discount conditions</strong>, choose <strong>Mix of products</strong> or <strong>Same variants</strong> (see below).</li>
+        <li>Under <strong>Products</strong>, set <strong>Applies to</strong>: <strong>All products</strong>, <strong>Specific products</strong>, <strong>Specific collections</strong>, <strong>Specific vendors</strong> or <strong>Specific product types</strong>, then pick them.</li>
+        <li>Under <strong>Storefront display</strong>, tick the extras you want (see below).</li>
+        <li>Optionally add a <strong>Countdown timer</strong>, check <strong>Combinations</strong>, and set a <strong>Schedule</strong>.</li>
+        <li>Click <strong>Create quantity discount</strong>.</li>
+      </ol>
+      <p>It’s an automatic discount, so shoppers don’t need a code. The best tier they reach is applied at checkout.</p>
+
+      <h2>Mix of products or same variants</h2>
+      <ul>
+        <li><strong>Mix of products</strong>: every eligible item in the cart counts towards the tier. Two mugs and one plate make 3 items, and the tier for 3 applies to all of them.</li>
+        <li><strong>Same variants</strong>: each cart line is counted on its own. A shopper needs 3 of the same variant to reach a tier for 3, and each line gets its own tier.</li>
+      </ul>
+      <p>A <strong>Fixed amount</strong> tier takes that amount off each item, not off the order. “£2 off when buying 3+” on 3 items saves £6.</p>
+
+      <h2>What shoppers see</h2>
+      <p>The storefront pieces need the All Discounts &amp; Promotions app embed turned on in your theme. The discount itself still applies at checkout without it.</p>
+      <h3>App blocks for the product page</h3>
+      <p>In your theme editor, open the product template and add any of these app blocks. Each one stays hidden on products that no quantity discount covers.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Block</th><th>What it shows</th><th>Settings</th></tr></thead>
+        <tbody>
+          <tr><td>Quantity picker</td><td>Selectable cards, one per tier, with the price for each. Picking a card sets the quantity, so your theme’s own Add to cart button adds that many.</td><td>Heading, Highlight (“Most popular”, “Best value”, both or none), Include a 1-item option, Accent colour</td></tr>
+          <tr><td>Quantity progress</td><td>A bar based on what’s already in the cart, such as “Add 1 more to get 20% off”.</td><td>Bar colour</td></tr>
+          <tr><td>Quantity savings chart</td><td>The tiers as a table or cards, with the saving per unit.</td><td>Heading, Style, Show savings per unit</td></tr>
+        </tbody>
+      </table></div>
+      <h3>Storefront display options in the campaign</h3>
+      <ul>
+        <li><strong>Show a tier badge on product cards</strong>: a badge such as “Buy 2+ save 10%” on collection, search and home page grids. Badges show for campaigns that apply to all products, specific products or collections, not vendors or product types.</li>
+        <li><strong>Show tier progress on cart lines</strong>: a note under qualifying items in the cart and cart drawer, such as “10% off with 2+ — add 1 more for 20%”.</li>
+        <li><strong>Show progress in the cart drawer</strong>: a bar at the top of the cart drawer. This is for <strong>Mix of products</strong> campaigns; <strong>Same variants</strong> campaigns show the note on each cart line instead.</li>
+      </ul>
+      <p>If a badge or note shows in the wrong place on your theme, set its position in <strong>Advanced settings</strong> under <strong>Widget placement</strong>, or use <strong>Ask us to place it</strong> there and we’ll set it up for you, free.</p>
+
+      <h2>Good to know</h2>
+      <ul>
+        <li>If you choose specific products, collections, vendors or product types, you must pick at least one. The form won’t save an empty selection.</li>
+        <li>Keep to one quantity discount per product. If two cover the same product, the product page blocks show only one of them.</li>
+        <li>By default the discount combines with order, product and shipping discounts. Untick a box under <strong>Combinations</strong> to keep it separate. If another live discount won’t stack with this one, the form lists it.</li>
+        <li>Quantity discounts are on every plan. On the Free plan, discounts apply to up to 10 orders a month. See <a href="../plans-and-billing/">Plans and billing</a>.</li>
+      </ul>
+
+      <div class="note">
+        <p>Stuck? Email <a href="mailto:hello@behaviour-discounts.co.uk">hello@behaviour-discounts.co.uk</a> with your store address and what you’re trying to set up.</p>
+      </div>
+
+      <h2>Related guides</h2>
+      <ul class="related">
+        <li><a href="../storefront-display/">Storefront display</a></li>
+        <li><a href="../bundles/">Bundles</a></li>
+        <li><a href="../cart-goals/">Cart goals</a></li>
+        <li><a href="../troubleshooting/">Troubleshooting</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav aria-label="Footer">
+      <a href="../../bulk-price-sales/">Bulk price sales</a>
+      <a href="../../switch-from-discounty/">Switching from Discounty</a>
+      <a href="../">Help</a>
+      <a href="https://docs.behaviour-discounts.co.uk/privacy/">Privacy</a>
+      <a href="mailto:hello@behaviour-discounts.co.uk">Contact</a>
+    </nav>
+    <p class="credit">Made by <a href="https://ec-web.co.uk/">EC Web</a></p>
+  </div>
+</footer>
+</body>
+</html>

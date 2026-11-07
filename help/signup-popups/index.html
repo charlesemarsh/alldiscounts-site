@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign-up popups | All Discounts &amp; Promotions help</title>
+<meta name="description" content="Collect email sign-ups with a storefront popup, add them to Shopify as subscribed customers, and reward them with a code or a free gift.">
+<link rel="canonical" href="https://alldiscounts.co.uk/help/signup-popups/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="All Discounts &amp; Promotions">
+<meta property="og:title" content="Sign-up popups">
+<meta property="og:description" content="Collect email sign-ups with a storefront popup, add them to Shopify as subscribed customers, and reward them with a code or a free gift.">
+<meta property="og:url" content="https://alldiscounts.co.uk/help/signup-popups/">
+<meta property="og:image" content="https://alldiscounts.co.uk/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../../#discounts">Discounts</a>
+      <a href="../../bulk-price-sales/">Bulk sales</a>
+      <a href="../../#pricing">Pricing</a>
+      <a href="../" aria-current="page">Help</a>
+      <a class="button small" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=help-signup-popups">Install</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <a class="crumb" href="../">← Help</a>
+      <h1>Sign-up popups</h1>
+      <p class="lede">Show a popup that asks shoppers for their email address. Each sign-up is added to your Shopify customers as subscribed to email marketing, and you can thank them with a discount code or a free gift.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap prose">
+      <h2>Set it up</h2>
+      <ol>
+        <li>In the app, go to <strong>Discount Campaigns</strong> and click <strong>Create a campaign</strong>.</li>
+        <li>On the <strong>Subscription popup</strong> card, click <strong>Create</strong>.</li>
+        <li>Enter a <strong>Campaign name</strong>. Only you see it.</li>
+        <li>Under <strong>When to show the popup</strong>, set the <strong>Delay (seconds)</strong> and the <strong>Cooldown (days)</strong>.</li>
+        <li>Under <strong>Popup content</strong>, write the <strong>Heading</strong>, <strong>Body</strong> and <strong>Primary button label</strong>. You can add an <strong>Image URL (optional)</strong> and a terms link with <strong>Terms link text (optional)</strong> and <strong>Terms link URL</strong>. You need a heading or a body.</li>
+        <li>Under <strong>Reward after email signup</strong>, choose a reward (see below).</li>
+        <li>Optionally set a <strong>Schedule</strong>.</li>
+        <li>Click <strong>Create popup</strong>.</li>
+      </ol>
+      <p>The popup goes live as soon as you create it. It runs through the All Discounts &amp; Promotions app embed, so the embed must be turned on in your theme.</p>
+
+      <h2>Where the emails go</h2>
+      <p>Each new email address is added to your Shopify customers, with email marketing set to subscribed (single opt-in). You’ll find them under <strong>Customers</strong> in your Shopify admin, ready for any email tool that uses your Shopify customer list.</p>
+      <p>If the email already belongs to a customer, the app leaves that customer as they are. Their email marketing setting isn’t changed.</p>
+
+      <h2>Rewards</h2>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Reward</th><th>What happens after sign-up</th></tr></thead>
+        <tbody>
+          <tr><td>No reward — just collect emails</td><td>The popup shows a thank-you message.</td></tr>
+          <tr><td>Reveal a discount code</td><td>The popup shows your <strong>Discount code</strong> and an optional <strong>Success message</strong>. If you leave the message blank, it says “Use code CODE at checkout.”</td></tr>
+          <tr><td>Free gift — auto-add or let the customer choose</td><td>The gift goes straight into the cart at no charge. Set <strong>Number of free gifts</strong> and pick the gift variants. If you pick more variants than the number of gifts, the shopper chooses from them.</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note">
+        <p>The app doesn’t create the code for <strong>Reveal a discount code</strong>. Set it up first, in this app or in Shopify, or the code won’t work at checkout.</p>
+      </div>
+      <p>For free gifts, the app creates the discount that makes the gift free, so there’s nothing else to set up. Each email address can claim the gift once. After an order has used it, the same email can’t claim it again.</p>
+
+      <h2>What shoppers see</h2>
+      <ul>
+        <li>The popup appears once the shopper has been on a page for the delay you set. The delay starts again on each new page.</li>
+        <li>If the shopper closes the popup or signs up, it stays hidden for the number of days in <strong>Cooldown (days)</strong>. This is remembered in their browser.</li>
+        <li>If another popup from the app is already open, the sign-up popup doesn’t show on that page.</li>
+        <li>If you have more than one sign-up popup live, shoppers see one at a time.</li>
+      </ul>
+
+      <h2>Good to know</h2>
+      <ul>
+        <li>The popup has no status setting. To stop it, select it in <strong>Discount Campaigns</strong> and click <strong>Pause</strong>, set an end date under <strong>Schedule</strong>, or delete it.</li>
+        <li>A cooldown of 0 means the popup can show again on the next page load after it’s closed.</li>
+      </ul>
+
+      <div class="note">
+        <p>Stuck? Email <a href="mailto:hello@behaviour-discounts.co.uk">hello@behaviour-discounts.co.uk</a> with your store address and what you’re trying to set up.</p>
+      </div>
+
+      <h2>Related guides</h2>
+      <ul class="related">
+        <li><a href="../behaviour-triggers/">Behaviour triggers</a></li>
+        <li><a href="../free-gifts/">Free gifts</a></li>
+        <li><a href="../discount-codes/">Discount codes</a></li>
+        <li><a href="../storefront-display/">Storefront display</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav aria-label="Footer">
+      <a href="../../bulk-price-sales/">Bulk price sales</a>
+      <a href="../../switch-from-discounty/">Switching from Discounty</a>
+      <a href="../">Help</a>
+      <a href="https://docs.behaviour-discounts.co.uk/privacy/">Privacy</a>
+      <a href="mailto:hello@behaviour-discounts.co.uk">Contact</a>
+    </nav>
+    <p class="credit">Made by <a href="https://ec-web.co.uk/">EC Web</a></p>
+  </div>
+</footer>
+</body>
+</html>

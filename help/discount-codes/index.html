@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Advanced discount codes | All Discounts &amp; Promotions help</title>
+<meta name="description" content="Create one discount code that combines money off products, the order and shipping, with per-variant percentages and shipping limited to named rates.">
+<link rel="canonical" href="https://alldiscounts.co.uk/help/discount-codes/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="All Discounts &amp; Promotions">
+<meta property="og:title" content="Advanced discount codes">
+<meta property="og:description" content="Create one discount code that combines money off products, the order and shipping, with per-variant percentages and shipping limited to named rates.">
+<meta property="og:url" content="https://alldiscounts.co.uk/help/discount-codes/">
+<meta property="og:image" content="https://alldiscounts.co.uk/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../../#discounts">Discounts</a>
+      <a href="../../bulk-price-sales/">Bulk sales</a>
+      <a href="../../#pricing">Pricing</a>
+      <a href="../" aria-current="page">Help</a>
+      <a class="button small" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=help-discount-codes">Install</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <a class="crumb" href="../">← Help</a>
+      <h1>Advanced discount codes</h1>
+      <p class="lede">An advanced discount code lets one code do several things at once: take money off products, off the whole order and off shipping. Shoppers enter it at checkout.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap prose">
+      <h2>Set it up</h2>
+      <ol>
+        <li>In the app, go to <strong>Discount Campaigns</strong> and click <strong>Create a campaign</strong>.</li>
+        <li>Find <strong>Advanced discount code</strong> and click <strong>Create</strong>.</li>
+        <li>Enter a <strong>Campaign name</strong> (only you see it) and the <strong>Discount code</strong>, or click <strong>Generate random code</strong>. Codes are saved in capitals.</li>
+        <li>Switch on each part you want: <strong>Product discounts</strong>, <strong>Order discounts</strong> and <strong>Shipping discounts</strong>. You need at least one. Product discounts is on when you start.</li>
+        <li>Fill in each part you switched on (see below).</li>
+        <li>Check <strong>Combinations</strong>, <strong>Customer selection</strong> and <strong>Schedule</strong>, then click <strong>Create discount code</strong>.</li>
+      </ol>
+      <p>The <strong>Summary</strong> on the right lists the parts the code includes as you build it.</p>
+
+      <h2>Product discounts</h2>
+      <ul>
+        <li><strong>Product discount type</strong>: <strong>Percentage</strong>, <strong>Fixed amount</strong>, <strong>Free gift</strong> or <strong>Each variant’s own %</strong>.</li>
+        <li><strong>Minimum requirements</strong>: none, a <strong>Minimum cart total</strong> or a <strong>Minimum quantity of items</strong>. With a minimum set, you can choose collections whose products don’t count towards it, such as sale items.</li>
+        <li><strong>Applies to</strong>: <strong>Products and variants</strong>, <strong>Collections</strong>, <strong>Vendors</strong> or <strong>Product types</strong>.</li>
+        <li><strong>Discount message (optional)</strong>: the text shoppers see next to the discount. Leave it blank for the default, such as “20% OFF”.</li>
+      </ul>
+      <p>With <strong>Free gift</strong>, you pick the gift products or a collection, and how the shopper gets it: <strong>Manual</strong>, <strong>Manual - Show popup</strong> or <strong>Auto add to cart</strong>.</p>
+
+      <h3>Each variant’s own %</h3>
+      <p>Use this when different variants need different discounts, for example 10% off one colour and 30% off another, under a single code.</p>
+      <ol>
+        <li>In Shopify, store each variant’s percentage in a variant metafield, for example <code>custom.discount_percent</code>. A number field or text such as <code>15</code> or <code>15%</code> works.</li>
+        <li>In the product discount, choose <strong>Each variant’s own %</strong> and enter the metafield as namespace.key in <strong>Variant metafield</strong>.</li>
+        <li>Set <strong>Applies to</strong> as usual. Only matching variants that have a value get the discount.</li>
+      </ol>
+      <p>Variants with no value, zero or a value over 100 aren’t discounted. Each discounted line shows its own percentage, such as “15% OFF”, unless you set a discount message.</p>
+
+      <h2>Order discounts</h2>
+      <ul>
+        <li><strong>Order discount type</strong>: <strong>Percentage</strong> or <strong>Fixed amount</strong> off the order.</li>
+        <li>An optional minimum cart total or quantity. With a minimum cart total, switch on <strong>Exclude collections from cart total</strong> to leave some collections out of the count.</li>
+        <li>An optional discount message. The default looks like “10% OFF ORDER”.</li>
+      </ul>
+
+      <h2>Shipping discounts</h2>
+      <ul>
+        <li><strong>Shipping discount type</strong>: <strong>Percentage</strong>, <strong>Fixed amount</strong> or <strong>Free shipping</strong>.</li>
+        <li>An optional minimum cart total or quantity. With a minimum cart total, tick <strong>Count the minimum after this code’s product discount</strong> if the cart has to reach the minimum once the code’s product discount is taken off.</li>
+        <li><strong>Only these shipping rates</strong>: rate names exactly as shoppers see them at checkout, separated by commas, for example <code>Standard</code>. Only those rates are discounted. Leave it blank for every rate.</li>
+      </ul>
+
+      <h2>What shoppers see</h2>
+      <p>Shoppers enter the code at checkout. Each part that applies shows against the products, the order total or the delivery cost.</p>
+
+      <h2>Good to know</h2>
+      <ul>
+        <li>Thresholds and fixed amounts are in your store currency and converted for shoppers paying in another currency.</li>
+        <li>Use <strong>Combinations</strong> to decide which other discounts this code can stack with. If a live discount won’t stack with it, the form tells you which one.</li>
+        <li>For a code that only discounts shipping, with a choice of countries, a <a href="../shipping-discounts/">shipping discount</a> is simpler.</li>
+        <li><strong>Customer selection</strong> is <strong>All customers</strong> for now; customer segments are marked as coming soon.</li>
+      </ul>
+
+
+      <div class="note">
+        <p>Stuck? Email <a href="mailto:hello@behaviour-discounts.co.uk">hello@behaviour-discounts.co.uk</a> with your store address and what you’re trying to set up.</p>
+      </div>
+
+      <h2>Related guides</h2>
+      <ul class="related">
+        <li><a href="../shipping-discounts/">Shipping discounts</a></li>
+        <li><a href="../cart-goals/">Cart goals</a></li>
+        <li><a href="../plans-and-billing/">Plans and billing</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav aria-label="Footer">
+      <a href="../../bulk-price-sales/">Bulk price sales</a>
+      <a href="../../switch-from-discounty/">Switching from Discounty</a>
+      <a href="../">Help</a>
+      <a href="https://docs.behaviour-discounts.co.uk/privacy/">Privacy</a>
+      <a href="mailto:hello@behaviour-discounts.co.uk">Contact</a>
+    </nav>
+    <p class="credit">Made by <a href="https://ec-web.co.uk/">EC Web</a></p>
+  </div>
+</footer>
+</body>
+</html>

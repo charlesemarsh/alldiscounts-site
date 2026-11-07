@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magic links | All Discounts &amp; Promotions help</title>
+<meta name="description" content="Create links that apply a discount when shoppers arrive from an email, ad or social post, with an optional popup, short URL and usage limits.">
+<link rel="canonical" href="https://alldiscounts.co.uk/help/magic-links/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="All Discounts &amp; Promotions">
+<meta property="og:title" content="Magic links">
+<meta property="og:description" content="Create links that apply a discount when shoppers arrive from an email, ad or social post, with an optional popup, short URL and usage limits.">
+<meta property="og:url" content="https://alldiscounts.co.uk/help/magic-links/">
+<meta property="og:image" content="https://alldiscounts.co.uk/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../../#discounts">Discounts</a>
+      <a href="../../bulk-price-sales/">Bulk sales</a>
+      <a href="../../#pricing">Pricing</a>
+      <a href="../" aria-current="page">Help</a>
+      <a class="button small" href="https://apps.shopify.com/behaviour-discounts?utm_source=alldiscounts.co.uk&amp;utm_medium=website&amp;utm_content=help-magic-links">Install</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <a class="crumb" href="../">← Help</a>
+      <h1>Magic links</h1>
+      <p class="lede">Share a link in an email, ad or post, and anyone who arrives through it gets your discount automatically, with no code to type.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap prose">
+      <h2>How it works</h2>
+      <p>A magic link is your store’s address with a parameter added to the end, such as <code>yourstore.com/?ref=instagram</code>. When a shopper opens it, the app recognises the parameter and applies the discount you set up. It works on any page of your store, so you can add the same ending to a product or collection link.</p>
+      <p>The app stores the link in the shopper’s cart, so the discount carries on applying as they browse and go to checkout. In Shopify it’s an automatic discount, named after your magic link.</p>
+      <p>Magic links need the app’s theme embed switched on. See <a href="../getting-started/">Getting started</a> if you haven’t done that yet.</p>
+
+      <h2>Set it up</h2>
+      <ol>
+        <li>In the app, open <strong>Discount Campaigns</strong> and click <strong>Create a campaign</strong>.</li>
+        <li>Find <strong>Magic link</strong> and click <strong>Create</strong>.</li>
+        <li>Under <strong>Magic link details</strong>, enter an <strong>Internal name</strong> and set <strong>Status</strong> to <strong>Active</strong> when you’re ready for it to work. <strong>Draft</strong> and <strong>Paused</strong> links don’t apply a discount.</li>
+        <li>Under <strong>Link parameters</strong>, enter a <strong>Parameter name</strong> (for example <code>ref</code>) and a <strong>Parameter value</strong> (for example <code>instagram</code>). The <strong>Link preview</strong> shows the ending to add to your store’s address.</li>
+        <li>Set up the discount in one or more of <strong>Product discounts</strong>, <strong>Order discounts</strong> and <strong>Shipping discounts</strong>. At least one needs a value above zero.</li>
+        <li>Optionally, fill in <strong>Short URL (optional)</strong>, <strong>Popup experience (optional)</strong>, <strong>Combinations</strong>, <strong>Activation limits</strong> and <strong>Schedule</strong> (see below).</li>
+        <li>Click <strong>Save</strong> in the save bar at the top of the page.</li>
+      </ol>
+      <p>After saving, click <strong>Preview for testing</strong> to open your store with the popup forced to show, even if you dismissed it earlier.</p>
+
+      <h3>Choosing a parameter</h3>
+      <ul>
+        <li>The value isn’t case-sensitive: <code>?ref=Instagram</code> and <code>?ref=instagram</code> both work.</li>
+        <li><code>qr</code> is kept for <a href="../qr-codes/">QR codes</a>, so you can’t use it as a parameter name.</li>
+        <li>If another magic link already uses the same parameter and value, the form warns you. Only one of them will be active at a time.</li>
+        <li>If you want people to share a link but not guess others, use a value that’s hard to guess, such as <code>win-x7k2m9p4</code> rather than <code>10off</code>.</li>
+      </ul>
+
+      <h2>Discount options</h2>
+      <p>A magic link can combine a product, order and shipping discount in one link. <strong>Product discounts</strong> can be a <strong>Percentage</strong>, a <strong>Fixed amount</strong> or a <strong>Free gift</strong>, and can apply to chosen products, collections, vendors or product types. Each section can have its own minimum purchase requirement. Use <strong>Combinations</strong> to choose whether it stacks with your other discounts.</p>
+      <p>If you choose <strong>Free gift</strong>, pick how shoppers get it: <strong>Manual</strong>, <strong>Manual - Show popup</strong> (a popup lets them choose a gift) or <strong>Auto add to cart</strong>.</p>
+
+      <h2>What shoppers see</h2>
+      <p>Tick <strong>Show popup when the link matches</strong> under <strong>Popup experience (optional)</strong> to greet shoppers who arrive from the link. You can set a <strong>Heading</strong>, <strong>Body</strong>, button labels, an image and a terms link. The discount is already applied, so the buttons just close the popup. Once closed, it won’t open by itself again during that visit.</p>
+      <p>Without a popup, the discount simply shows up in the cart and at checkout. The popup isn’t available with the <strong>Auto add to cart</strong> or <strong>Manual - Show popup</strong> gift options, which use their own flow. Change the popup’s colours and fonts in <a href="../storefront-display/">Storefront display</a>.</p>
+
+      <h2>Short URLs</h2>
+      <p>Enter a <strong>Short URL path</strong> such as <code>/go/vip</code> to get a tidy address like <code>yourstore.com/go/vip</code> that redirects to your link. It’s handy for print, SMS or anywhere a long link looks messy. The app adds it to your store as a Shopify URL redirect. The path must start with <code>/</code> and can’t contain spaces or a <code>?</code>. If the path can’t be set up, for example because another redirect already uses it, the link still saves and a <strong>Short URL issue</strong> banner explains what went wrong.</p>
+
+      <h2>Limits and scheduling</h2>
+      <ul>
+        <li><strong>Usage limit</strong>: the most orders that can use this link. When it’s reached, the status changes to <strong>Ended (usage limit reached)</strong> and the discount stops.</li>
+        <li><strong>Expires after (hours)</strong>: the clock starts the first time anyone opens the link. When time’s up, the status changes to <strong>Expired (time limit reached)</strong>.</li>
+        <li><strong>Schedule</strong>: choose <strong>Run this rule continuously</strong> or <strong>Run this rule for a specific time period</strong> with a start and end date.</li>
+      </ul>
+      <p>To bring back an ended or expired link, set its <strong>Status</strong> to <strong>Active</strong> and save. For a link that hit its usage limit, raise or clear the limit first.</p>
+
+      <h2>See how it’s doing</h2>
+      <p>The magic link’s edit page shows when it was first opened and how many orders have used it. For revenue, orders and average order value, open <strong>Analytics</strong> and click the magic link to see sales by product and each order.</p>
+
+
+      <div class="note">
+        <p>Stuck? Email <a href="mailto:hello@behaviour-discounts.co.uk">hello@behaviour-discounts.co.uk</a> with your store address and what you’re trying to set up.</p>
+      </div>
+
+      <h2>Related guides</h2>
+      <ul class="related">
+        <li><a href="../qr-codes/">QR codes</a></li>
+        <li><a href="../behaviour-triggers/">Behaviour triggers</a></li>
+        <li><a href="../storefront-display/">Storefront display</a></li>
+        <li><a href="../getting-started/">Getting started</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="../../"><i></i>All Discounts &amp; Promotions</a>
+    <nav aria-label="Footer">
+      <a href="../../bulk-price-sales/">Bulk price sales</a>
+      <a href="../../switch-from-discounty/">Switching from Discounty</a>
+      <a href="../">Help</a>
+      <a href="https://docs.behaviour-discounts.co.uk/privacy/">Privacy</a>
+      <a href="mailto:hello@behaviour-discounts.co.uk">Contact</a>
+    </nav>
+    <p class="credit">Made by <a href="https://ec-web.co.uk/">EC Web</a></p>
+  </div>
+</footer>
+</body>
+</html>
